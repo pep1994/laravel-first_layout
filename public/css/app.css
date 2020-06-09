@@ -1,0 +1,75 @@
+.jumbotron {
+  background: url(../img/laravel.jpg);
+  background-position: center;
+  color: white;
+}
+
+footer {
+  height: 60px;
+  background-color: #353A3F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.numbers {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.numbers .box {
+  background-color: white;
+  border: solid 2px black;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  margin: 2px;
+  cursor: pointer;
+}
+.numbers .box:hover {
+  transform: scale(1.2);
+}
+
+.carousel-container {
+  height: 100%;
+}
+.carousel-container .carousel-inner {
+  height: 100%;
+}
+.carousel-container .carousel-item {
+  text-align: center;
+  height: 100%;
+}
+.carousel-container #carouselExampleControls {
+  width: 100%;
+  height: 100%;
+}
+.carousel-container h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: #e9e9e9;
+  height: calc(100vh - 56px - 60px);
+}

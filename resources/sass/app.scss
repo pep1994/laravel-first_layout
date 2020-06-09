@@ -1,0 +1,20 @@
+
+@import 'home';
+@import 'footer';
+@import 'numbers';
+@import 'about';
+@import 'contacts';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+
+    background-color: rgb(233, 233, 233);
+    height: calc(100vh - 56px - 60px);
+}
+
+
